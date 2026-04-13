@@ -1,10 +1,6 @@
 {
-  "buildCommand": "cd client && npm run build",
-  "installCommand": "yarn install",
-  "devCommand": "cd client && npm run dev",
-  "env": {
-    "NEXT_PUBLIC_API_URL": "@next_public_api_url",
-    "NEXT_PUBLIC_DEFAULT_PROPERTY_ID": "@next_public_default_property_id",
-    "NEXT_PUBLIC_DEFAULT_ROOM_ID": "@next_public_default_room_id"
-  }
+  "buildCommand": "cd client && npm install && npm run build",
+  "installCommand": "npm install",
+  "outputDirectory": "client/.next",
+  "devCommand": "cd client && npm run dev"
 }
